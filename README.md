@@ -31,7 +31,7 @@ O desafio consiste em criar uma API Restful para o acesso, alteração e criaç�
  1. Efetue o **fork** deste projeto para a sua conta do GitHub.
  2. Implemente o desafio da **API** apresentado acima.
  3. Após finalizar o desafio crie um **Pull Request**.
- 4. Você deverá apresentar a sua solução para o nosso CTO Ninja.
+ 4. Você deverá apresentar a sua solução para o Time Ninja da BT.
 
 
 ## Requisitos
