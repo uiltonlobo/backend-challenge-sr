@@ -1,0 +1,17 @@
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Web.deps.json
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Web.runtimeconfig.json
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Web.runtimeconfig.dev.json
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Web.dll
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Web.pdb
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Business.dll
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\bin\Debug\netcoreapp2.1\BTMobile.Business.pdb
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.csprojAssemblyReference.cache
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.csproj.CoreCompileInputs.cache
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.RazorAssemblyInfo.cache
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.RazorAssemblyInfo.cs
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.AssemblyInfoInputs.cache
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.AssemblyInfo.cs
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.RazorTargetAssemblyInfo.cache
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.csproj.CopyComplete
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.dll
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.Web\obj\Debug\netcoreapp2.1\BTMobile.Web.pdb
