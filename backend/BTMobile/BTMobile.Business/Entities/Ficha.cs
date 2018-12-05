@@ -11,8 +11,9 @@ namespace BTMobile.Business.Entities
             this.Series = new List<SerieFicha>();
         }
 
+        public int ProfessorId { get; set; }
+        public int ClienteId { get; set; }
         public DateTime DataCriacao { get; set; }
-
 
         public Professor Professor { get; set; }
         public Cliente Cliente { get; set; }

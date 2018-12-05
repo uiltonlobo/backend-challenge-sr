@@ -12,6 +12,7 @@ namespace BTMobile.Business.Entities
             this.HistoricoExecucaoSerie = new List<HistoricoExecucaoSerie>();
         }
 
+        public int FichaId { get; set; }
         public string RotuloSerie { get; set; }
 
         public Ficha Ficha { get; set; }

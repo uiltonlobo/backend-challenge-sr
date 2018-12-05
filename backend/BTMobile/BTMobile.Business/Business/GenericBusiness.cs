@@ -10,8 +10,8 @@ namespace BTMobile.Business.Business
 {
     public class GenericBusiness<T> : IGenericBusiness<T> where T : BaseEntity
     {
-        private BTMobileContext contexto;
-        private IGenericRepository<T> repositorio;
+        protected BTMobileContext contexto;
+        protected IGenericRepository<T> repositorio;
 
         public GenericBusiness()
         {

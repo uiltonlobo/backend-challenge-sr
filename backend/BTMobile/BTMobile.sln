@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTMobile.Business", "BTMobile.Business\BTMobile.Business.csproj", "{7F391ABD-0D2F-44D7-9B61-99F9AB60FCBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTMobile.Web", "BTMobile.Web\BTMobile.Web.csproj", "{F959E5FA-FB08-4D2C-94E8-72A7FD7CD8E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTMobile.WebAPI", "BTMobile.WebAPI\BTMobile.WebAPI.csproj", "{900360DD-FC24-4CC2-A43D-C067C4188A4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7F391ABD-0D2F-44D7-9B61-99F9AB60FCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F391ABD-0D2F-44D7-9B61-99F9AB60FCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F391ABD-0D2F-44D7-9B61-99F9AB60FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F959E5FA-FB08-4D2C-94E8-72A7FD7CD8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F959E5FA-FB08-4D2C-94E8-72A7FD7CD8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F959E5FA-FB08-4D2C-94E8-72A7FD7CD8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F959E5FA-FB08-4D2C-94E8-72A7FD7CD8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900360DD-FC24-4CC2-A43D-C067C4188A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900360DD-FC24-4CC2-A43D-C067C4188A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900360DD-FC24-4CC2-A43D-C067C4188A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900360DD-FC24-4CC2-A43D-C067C4188A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

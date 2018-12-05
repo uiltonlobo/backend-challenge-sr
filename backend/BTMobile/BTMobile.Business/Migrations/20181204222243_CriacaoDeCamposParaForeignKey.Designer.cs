@@ -4,14 +4,16 @@ using BTMobile.Business.DB;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BTMobile.Business.Migrations
 {
     [DbContext(typeof(BTMobileContext))]
-    partial class BTMobileContextModelSnapshot : ModelSnapshot
+    [Migration("20181204222243_CriacaoDeCamposParaForeignKey")]
+    partial class CriacaoDeCamposParaForeignKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

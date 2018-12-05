@@ -9,6 +9,8 @@ namespace BTMobile.Business.Entities
         public int Ordem { get; set; }
         public string Repeticao { get; set; }
         public double Carga { get; set; }
+        public int SerieFichaId { get; set; }
+        public int ExercicioId { get; set; }
 
         public SerieFicha SerieFicha { get; set; }
         public Exercicio Exercicio { get; set; }
