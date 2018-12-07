@@ -109,18 +109,10 @@
   </Class>
   <Class Name="BTMobile.Business.Entities.Professor">
     <Position X="0.5" Y="0.5" Width="1.5" />
-    <AssociationLine Name="Fichas" Type="BTMobile.Business.Entities.Ficha">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.682" Y="0.195" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Entities\Professor.cs</FileName>
     </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Property Name="Fichas" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="BTMobile.Business.Entities.SerieFicha">
     <Position X="4.75" Y="3.75" Width="1.5" />

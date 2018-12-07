@@ -15,8 +15,8 @@ namespace BTMobile.Business.Entities
         public int FichaId { get; set; }
         public string RotuloSerie { get; set; }
 
-        public Ficha Ficha { get; set; }
-        public IList<ExercicioSerie> ExerciciosSerie { get; set; }
-        public IList<HistoricoExecucaoSerie> HistoricoExecucaoSerie { get; set; }
+        //public virtual Ficha Ficha { get; set; }
+        public virtual IEnumerable<ExercicioSerie> ExerciciosSerie { get; set; }
+        public virtual IEnumerable<HistoricoExecucaoSerie> HistoricoExecucaoSerie { get; set; }
     }
 }

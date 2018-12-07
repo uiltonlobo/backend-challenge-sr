@@ -1,0 +1,31 @@
+<div>
+  <div>
+    <label>Aluno: </label> {{ficha.cliente.nome}}
+  </div>
+  <div>
+    <label>Professor: </label> {{ficha.professor.nome}}
+  </div>
+</div>
+
+<div class="table-responsive" *ngFor="let serie of ficha.series">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>SÉRIE</th>
+          <th>ORDEM</th>
+          <th>EXERCÍCIO</th>
+          <th>REPETIÇÃO</th>
+          <th>CARGA (KG)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let ex of serie.exerciciosSerie; first as isFirst;">
+          <td attr.rowspan="{{serie.exerciciosSerie.length}}" *ngIf="isFirst">{{serie.rotuloSerie}}</td>
+          <td>{{ex.ordem}}</td>
+          <td>{{ex.exercicio.nome}}</td>
+          <td>{{ex.repeticao}}</td>
+          <td><a (click)="AlterarCarga($event, ficha.id, ex.id, ex.exercicio.nome, ex.carga)" href="#">{{ex.carga}}</a></td>
+        </tr>
+      </tbody>
+    </table>
+</div>

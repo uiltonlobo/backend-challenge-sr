@@ -10,6 +10,6 @@ namespace BTMobile.Business.Entities
         public DateTime DataHoraAlteracao { get; set; }
         public double NovaCarga { get; set; }
 
-        public ExercicioSerie ExercicioSerie { get; set; }
+        public virtual ExercicioSerie ExercicioSerie { get; set; }
     }
 }

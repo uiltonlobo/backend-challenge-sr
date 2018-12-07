@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BTMobile.Business.Business;
 using BTMobile.Business.Entities;
 using BTMobile.Business.Repository;
+using BTMobile.WebAPI.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,11 +15,11 @@ namespace BTMobile.WebAPI.Controllers
     [ApiController]
     public class ExercicioSerieController : ControllerBase
     {
-        private IGenericBusiness<ExercicioSerie> business;
+        private IExercicioSerieBusiness business;
 
         public ExercicioSerieController()
         {
-            this.business = new GenericBusiness<ExercicioSerie>();
+            this.business = new ExercicioSerieBusiness();
         }
 
         [HttpGet]
@@ -45,10 +46,10 @@ namespace BTMobile.WebAPI.Controllers
             business.Incluir(exercicioSerie);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] ExercicioSerie exercicioSerie)
+        [HttpPut("{fichaId}")]
+        public IActionResult Put(int fichaId, [FromBody]ExercicioSerieModel exercicio)
         {
-            business.Alterar(exercicioSerie);
+            business.AlterarCarga(exercicio.FichaId, exercicio.ClienteId, exercicio.ExercicioSerieId, exercicio.ValorCarga);
             return NoContent();
         }
 

@@ -8,12 +8,12 @@ namespace BTMobile.Business.Entities
     {
         public Professor()
         {
-            this.Fichas = new List<Ficha>();
+            //this.Fichas = new List<Ficha>();
         }
 
         
         public string Nome { get; set; }
 
-        public IList<Ficha> Fichas { get; set; }
+       // public virtual IEnumerable<Ficha> Fichas { get; set; }
     }
 }

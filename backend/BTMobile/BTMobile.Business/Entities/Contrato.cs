@@ -9,6 +9,6 @@ namespace BTMobile.Business.Entities
         public int ClienteId { get; set; }
         public bool Ativo { get; set; }
 
-        public Cliente Cliente { get; set; }
+        public virtual Cliente Cliente { get; set; }
     }
 }

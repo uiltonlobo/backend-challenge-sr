@@ -44,6 +44,14 @@ namespace BTMobile.WebAPI
                         }
                     });
             });
+
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +67,8 @@ namespace BTMobile.WebAPI
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("MyPolicy");
             app.UseMvc();
 
             app.UseSwagger();
@@ -67,6 +77,8 @@ namespace BTMobile.WebAPI
                 c.RoutePrefix = "swagger";
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Demo JWT Api");
             });
+
+            
         }
     }
 }

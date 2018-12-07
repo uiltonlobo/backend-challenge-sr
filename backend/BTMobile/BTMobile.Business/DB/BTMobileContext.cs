@@ -20,7 +20,8 @@ namespace BTMobile.Business.DB
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=BTMobileDB;User ID=sa;Password=sqlex123;Trusted_Connection=False;");
+            optionsBuilder
+                .UseSqlServer(@"Server=.\SQLEXPRESS;Database=BTMobileDB;User ID=sa;Password=sqlex123;Trusted_Connection=False;");
         }
     }
 }

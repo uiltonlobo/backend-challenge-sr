@@ -4,6 +4,13 @@
         <name>BTMobile.WebAPI</name>
     </assembly>
     <members>
+        <member name="M:BTMobile.WebAPI.Controllers.FichaController.Get(BTMobile.WebAPI.Controllers.FichaController.GetParameters)">
+            <summary>
+            Obtem as fichas de alunos
+            </summary>
+            <param name="parametros">Parametros de busca que podem ser pelo ID do professor e pelo ID do aluno</param>
+            <returns></returns>
+        </member>
         <member name="M:BTMobile.WebAPI.Controllers.FichaController.Post(BTMobile.Business.Entities.Ficha)">
             <summary>
             Gravar dados de uma nova ficha de treino.

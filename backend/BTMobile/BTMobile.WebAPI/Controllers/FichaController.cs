@@ -14,19 +14,31 @@ namespace BTMobile.WebAPI.Controllers
     [ApiController]
     public class FichaController : ControllerBase
     {
-        private IGenericBusiness<Ficha> business;
+        private IFichaBusiness business;
 
         public FichaController()
         {
-            this.business = new GenericBusiness<Ficha>();
+            this.business = new FichaBusiness();
         }
 
-        [HttpGet]
-        public ActionResult<IEnumerable<Ficha>> Get()
+        public class GetParameters
         {
-            var lista = business.Listar();
+            public int ProfessorId { get; set; }
+            public int ClienteId { get; set; }
+        }
+
+        /// <summary>
+        /// Obtem as fichas de alunos
+        /// </summary>
+        /// <param name="parametros">Parametros de busca que podem ser pelo ID do professor e pelo ID do aluno</param>
+        /// <returns></returns>
+        [HttpGet]
+        public ActionResult<IEnumerable<Ficha>> Get([FromQuery]GetParameters parametros )
+        {
+            IEnumerable<Ficha> lista = business.Listar(parametros.ProfessorId, parametros.ClienteId);
             return lista.ToList();
         }
+
 
         [HttpGet("{id}")]
         public ActionResult<Ficha> Get(int id)

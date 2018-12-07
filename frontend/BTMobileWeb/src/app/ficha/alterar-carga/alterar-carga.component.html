@@ -1,0 +1,14 @@
+<div>
+  <form>
+    <div>
+      <label>Exercicio: </label> <span>{{nomeExercicio}}</span>
+    </div>
+    <div>
+      <label>Carga Atual: </label> <span>{{valorCarga}}</span>
+    </div>
+    <div>
+      <label>Nova Carga: </label> <input [value]="novaCarga" (input)="novaCarga = $event.target.value" type="text" id="txtNovaCarga"  />
+    </div>
+    <button (click)="salvarNovaCarga($event)">Alterar</button> <button (click)="voltar($event)">Cancelar</button>
+  </form>
+</div>

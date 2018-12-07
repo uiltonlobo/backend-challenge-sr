@@ -15,8 +15,8 @@ namespace BTMobile.Business.Entities
         public int ClienteId { get; set; }
         public DateTime DataCriacao { get; set; }
 
-        public Professor Professor { get; set; }
-        public Cliente Cliente { get; set; }
-        public IList<SerieFicha> Series { get; set; }
+        public virtual Professor Professor { get; set; }
+        public virtual Cliente Cliente { get; set; }
+        public virtual IEnumerable<SerieFicha> Series { get; set; }
     }
 }

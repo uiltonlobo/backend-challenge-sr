@@ -8,11 +8,11 @@ namespace BTMobile.Business.Entities
     {
         public Exercicio()
         {
-            this.ExerciciosSerie = new List<ExercicioSerie>();
+            //this.ExerciciosSerie = new List<ExercicioSerie>();
         }
 
         public string Nome { get; set; }
 
-        public IList<ExercicioSerie> ExerciciosSerie { get; set; }
+        //public virtual IEnumerable<ExercicioSerie> ExerciciosSerie { get; set; }
     }
 }

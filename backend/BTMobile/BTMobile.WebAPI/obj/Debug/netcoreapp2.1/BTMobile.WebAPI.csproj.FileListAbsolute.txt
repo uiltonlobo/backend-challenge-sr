@@ -3,6 +3,7 @@ C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\ba
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.WebAPI.runtimeconfig.dev.json
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.WebAPI.dll
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.WebAPI.pdb
+C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.WebAPI.xml
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.Business.dll
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.Business.pdb
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\obj\Debug\netcoreapp2.1\BTMobile.WebAPI.csprojAssemblyReference.cache
@@ -15,4 +16,3 @@ C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\ba
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\obj\Debug\netcoreapp2.1\BTMobile.WebAPI.csproj.CopyComplete
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\obj\Debug\netcoreapp2.1\BTMobile.WebAPI.dll
 C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\obj\Debug\netcoreapp2.1\BTMobile.WebAPI.pdb
-C:\Uilton\Projetos\TestesDasEmpresas\Bodytech\Sourcecode\backend-challenge-sr\backend\BTMobile\BTMobile.WebAPI\bin\Debug\netcoreapp2.1\BTMobile.WebAPI.xml
