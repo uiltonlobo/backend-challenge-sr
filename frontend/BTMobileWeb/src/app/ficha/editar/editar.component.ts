@@ -9,7 +9,7 @@ import { Route } from '@angular/compiler/src/core';
   templateUrl: './editar.component.html',
   styleUrls: ['./editar.component.css']
 })
-export class EditarComponent implements OnInit {
+export class Ficha_Editar implements OnInit {
 
   private fichaId: number;
   public ficha: any;

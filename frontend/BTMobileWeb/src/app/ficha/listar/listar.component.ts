@@ -7,7 +7,7 @@ import { FichaService}  from '../../ficha.service';
   templateUrl: './listar.component.html',
   styleUrls: ['./listar.component.css']
 })
-export class ListarComponent implements OnInit {
+export class Ficha_Listar implements OnInit {
 
   public professores: Array<any>;
   public clientes: Array<any>;

@@ -2,13 +2,13 @@ import { FichaService } from './../../ficha.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
-
 @Component({
   selector: 'app-alterar-carga',
   templateUrl: './alterar-carga.component.html',
   styleUrls: ['./alterar-carga.component.css']
 })
-export class AlterarCargaComponent implements OnInit {
+
+export class Ficha_AlterarCarga implements OnInit {
 
   public fichaId: number;
   public clienteId: number;

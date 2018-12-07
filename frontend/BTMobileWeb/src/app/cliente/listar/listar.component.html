@@ -1,0 +1,21 @@
+<div>
+  <div>
+    <button (click)="incluir($event)">Novo</button>
+  </div>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Matrícula</th>
+          <th>Cliente</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cliente of clientes">
+          <td>{{cliente.id}}</td>
+          <td><a [routerLink]="['/cliente', cliente.id]">{{cliente.nome}}</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
